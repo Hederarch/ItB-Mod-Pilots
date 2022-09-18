@@ -1,11 +1,13 @@
 # Hedera's Pilot Testfire
 Thanks for testing my mods!
 
+Not a valid modpack yet, the folders need to be individually inserted into the game's mods folder.
+
 Feedback is preferred on the relevant channels of the official discord (or the specialized thread if that's still available): https://discord.gg/xRxPAb87JW
 
 Check the Issues tab for known bugs that are being worked on.
 
-Not a valid modpack yet, the folders need to be individually inserted into the game's mods folder.
+Looking for my mechs? You can find them here: https://github.com/Hederarch/ItB-Mod-Squads
 
 *(also these do require the Into the Breach modloader. That shouldn't be a problem for most people but download it if you don't have it.)*
 
