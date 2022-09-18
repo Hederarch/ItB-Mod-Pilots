@@ -1,4 +1,4 @@
-# Hedera's Pilot Pack
+# Hedera's Pilot Testfire
 Not a valid modpack yet, the folders need to be individually inserted into the game's mods folder.
 
 Feedback is preferred on the relevant channels of the official discord (or the specialized thread if that's still available): https://discord.gg/xRxPAb87JW
