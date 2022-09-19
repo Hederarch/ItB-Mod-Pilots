@@ -24,6 +24,11 @@ This pack consists of 2 new pilots, with more on the way soon.
 
 > An Archive radio operator who managed to intercept Vek communications and contact the monstrosity living beneath the volcanic hive. He believes it's fallen in love with him, and manages to draw its attention to the surface, for better or worse. His research into Vek social behavior has given him an unfortunate fondness toward them and he proves reluctant to harm them, even for the greater good.
 
+![Fourier](https://media.discordapp.net/attachments/1006298746658771034/1021290808038674443/fourier.png)
+**Fourier** - (Requires 1 Power) Damages all enemies and mountains on Reset Turn.
+
+> A primitive AI from a long-lost timeline. Intended to observe the effects of repeated breaches on sentient machines, a software error caused Fourier to forget her previous timelines and forever continue her research. After ruining her chronometer from overuse, her breaches grew less and less stable until they began to destructively interfere with each other and damage large structures in the surrounding area. It's unknown how aware she is of her surroundings, and she seems to think of combat as simply another experiment.
+
 ## What to look for
 BALANCE - Are pilot abilites too strong? Too weak? Do they create unwinnable boards or dramatically change gameplay?
 
