@@ -3,17 +3,17 @@
 -- Table of responses to various triggers.
 return {
 	-- Game States
-	Gamestart = {"This is prototype unit #self_first reporting a successful first breach.","ERR:Memory 'Timeline 1' already exists. Overwrite Timeline 1?",
+	Gamestart = {"This is prototype unit #self_first reporting a successful first breach.","ERR: Memory 'Timeline 1' already exists. Overwrite Timeline 1?",
 	"Diagnostics show a local anomaly is compromising results. I am error?","This unit is currently under study. Please do not disturb."},
 	FTL_Found = {"Invalid tachyon signature from creature inside pod. I am error?","Impossible tachyon readings from recovered creature. I am error?"},
 	--FTL_Start = {},
-	Gamestart_PostVictory = {"This is prototype unit #self_first reporting a successful first breach.","ERR:Memory 'Timeline 1' already exists. Overwrite Timeline 1?"},
+	Gamestart_PostVictory = {"This is prototype unit #self_first reporting a successful first breach.","ERR: Memory 'Timeline 1' already exists. Overwrite Timeline 1?"},
 	Death_Revived = {"Diagnostics show I am currently dead. I am error?"},
 	Death_Main = {"I have... failed.","Shutting down."},
 	Death_Response = {"A branch is severed, the tree survives.","There are other #main_seconds out there.","Casualty logged. Consulting ethics protocol."},
 	Death_Response_AI = {"A waste of good machinery.","Mech down. Again.",""},
 	TimeTravel_Win = {"Research complete in [ERR] more breaches. The study must continue."},
-	Gameover_Start = {"ERR:Insufficient power.","ERR:Low battery warning.","ERR:Mech unresponsive."},
+	Gameover_Start = {"ERR: Insufficient power.","ERR: Low battery warning.","ERR: Mech unresponsive."},
 	Gameover_Response = {"Initiating emergency breach.","Breach initiated. Goodbye, doctor.","Preparing second breach."},
 	
 	-- UI Barks
@@ -27,16 +27,16 @@ return {
 	MissionEnd_Dead = {"Test passed. Engage reward protocol.","Test completed. Efficiency at 100%.","Submitting combat data for peer review."},
 	MissionEnd_Retreat = {"Test failed. Engage discouragement protocol.","Insufficient results. Increasing power intake.","Is it too late for a do-over?"},
 
-	MissionFinal_Start = {"o_o","._.","@_@","c_c",},
-	MissionFinal_StartResponse = {"z_z","n_n","._.","o_o"},
+	MissionFinal_Start = {"How am I supposed to pilot without power?","The grid is a crucial control variable. We cannot proceed without it.","This island feels familiar. Too familiar.",},
+	MissionFinal_StartResponse = {"Pylons entering testing site.","Being crushed by a pylon would ruin my data collection.","Diagnostics show a successful drop."},
 	--MissionFinal_FallStart = {},
-	MissionFinal_FallResponse = {"!_!","O_O","?_?"},
+	MissionFinal_FallResponse = {"Abort mission! Abort!","Pull us back up, quick!","Diagnostics show a sudden drop in elevation. Are we dying?"},
 	--MissionFinal_Pylons = {},
-	MissionFinal_Bomb = {"!_!","O_O","?_?"},
+	MissionFinal_Bomb = {"ERR: Unit #self_first cannot accomplish hive destruction.","ERR: Task table overflow. Hive destruction impossible."},
 	--MissionFinal_BombResponse = {},
-	MissionFinal_CaveStart = {"o_o","._.","@_@","c_c",},
+	MissionFinal_CaveStart = {"New test: Defend the bomb!","Hypothesis: An intact bomb will save this timeline.","Predicted hive destruction at 100%."},
 	--MissionFinal_BombDestroyed = {},
-	MissionFinal_BombArmed = {"!_!","n_n","c_c"},
+	MissionFinal_BombArmed = {"Diagnostics show the bomb has fully armed.","The bomb is ready. We get to leave now, right?","Diagnostics show bomb reaction is about to breach containment."},
 
 	PodIncoming = {"Tachyon readings have spiked. What's happening?","Breach detected. Scanning for anomalies..."},
 	PodResponse = {"Anomaly present. Investigate at once.","Secure the specimen for further testing.","This pod feels familiar. Too familiar."},
