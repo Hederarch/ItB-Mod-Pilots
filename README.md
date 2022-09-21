@@ -29,6 +29,11 @@ This pack consists of 2 new pilots, with more on the way soon.
 
 > A primitive AI from a long-lost timeline. Intended to observe the effects of repeated breaches on sentient machines, a software error caused Fourier to forget her previous timelines and forever continue her research. After ruining her chronometer from overuse, her breaches grew less and less stable until they began to destructively interfere with each other and damage large structures in the surrounding area. It's unknown how aware she is of her surroundings, and she seems to think of combat as simply another experiment.
 
+![Olga Ermanov](https://media.discordapp.net/attachments/1006298746658771034/1022006929423335434/olga.png)
+**Olga Ermanov** - After killing an enemy, teleport to its location.
+
+> Olga was a Detritus recruit during the initial sweep for mech pilots, and was one of the greatest trainees to ever come out of the program. She became an experienced mech pilot, rumored to have saved a hundred timelines and exterminated millions of Vek. However, during a routine breach out of the hive, the door to her time pod burst open, smearing her across space and intertwining her with the very Vek she fights. She still has some of her old talent, but she fights through a constant fog of warp sickness, dulling her legendary skill. 
+
 ## What to look for
 BALANCE - Are pilot abilites too strong? Too weak? Do they create unwinnable boards or dramatically change gameplay?
 
