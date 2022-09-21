@@ -38,7 +38,7 @@ end
 Cult_Tentacle = Pawn:new{
 	Name = "Tentacle",
 	Health = 1,
-	Image = "burrower",
+	Image = "djinn_tenta",
 	MoveSpeed = 7,
 	Burrows = true,
 	DefaultTeam = TEAM_ENEMY,
@@ -47,7 +47,9 @@ Cult_Tentacle = Pawn:new{
 	SoundLocation = "/enemy/burrower_1/",
 	Pushable = false,
 	Neutral = true,
+	Portrait = "enemy/djinn_tenta",
 }
+AddPawn("Cult_Tentacle") 
 
 CultAtk = Skill:new{
 	Name = "Consuming Grasp",

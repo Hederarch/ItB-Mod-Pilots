@@ -13,7 +13,7 @@ local mod = {
 function mod:init()
 	-- look in template/pilot to see how to code pilots.
 	require(self.scriptPath .."pilot")
-
+	require(self.scriptPath .."animations")
 	--truelch test
 	require(self.scriptPath .. "hooks")
 end
