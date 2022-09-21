@@ -12,7 +12,7 @@ Looking for my mechs? You can find them here: https://github.com/Hederarch/ItB-M
 *(also these do require the Into the Breach modloader. That shouldn't be a problem for most people but download it if you don't have it.)*
 
 ## What's Included
-This pack consists of 2 new pilots, with more on the way soon.
+This pack consists of 4 new pilots, with more on the way soon.
 
 ![Apollo](https://cdn.discordapp.com/attachments/699323570211520556/1021146960268365974/apollo.png)
 **Apollo** - The Plan: (Requires 1 Power) Shields all Mechs after finishing a mission with no Grid damage.
