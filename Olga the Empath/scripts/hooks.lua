@@ -47,10 +47,10 @@ local function teleport(mission, pawn)
 	modApi:conditionalHook(function()
 		return (not teleporting == true)
 	end,function()
-	teleporting = true
-	--LOG("FUNC CALLED")
-	if IsUserPresent() and pawn:GetTeam() == TEAM_ENEMY and Game:GetTeamTurn() == TEAM_PLAYER then
-		local user = GetUser()  
+		teleporting = true
+		--LOG("FUNC CALLED")
+		if IsUserPresent() and pawn:GetTeam() == TEAM_ENEMY and Game:GetTeamTurn() == TEAM_PLAYER then
+			local user = GetUser()  
 			if lastPicked:GetId() == user:GetId() then
 				--LOG("POINTS FOUND")
 				--LOG("IN "..tostring(not teleporting))
@@ -58,9 +58,30 @@ local function teleport(mission, pawn)
 				local to = pawn:GetSpace()
 				local from = GetUser():GetSpace()
 				ret:AddTeleport(from,to, NO_DELAY)
-				ret:AddBounce(from,-12)
-				ret:AddBounce(to,-12)
+				local convertTo = SpaceDamage(to,0)
+				local convertFrom = SpaceDamage(from,0)
+				local fromFire = Board:IsFire(from) and EFFECT_CREATE or EFFECT_REMOVE
+				local fromAcid = Board:IsAcid(from) and EFFECT_CREATE or EFFECT_REMOVE
+				local toFire = Board:IsFire(to) and EFFECT_CREATE or EFFECT_REMOVE
+				local toAcid = Board:IsAcid(to) and EFFECT_CREATE or EFFECT_REMOVE
+				convertTo.iTerrain = Board:GetTerrain(from)
+				convertTo.iFire = fromFire
+				convertTo.iAcid = fromAcid
+				convertFrom.iTerrain = Board:GetTerrain(to)
+				convertFrom.iFire = toFire
+				convertFrom.iAcid = toAcid
+				LOG("tofire ".. tostring(toFire))
+				LOG("fromfire ".. tostring(fromFire))
+				LOG("toacid ".. tostring(toAcid))
+				LOG("fromacid ".. tostring(fromAcid))
+				ret:AddDamage(convertFrom)
+				ret:AddDamage(convertTo)
+				ret:AddBounce(from,-4)
+				ret:AddBounce(to,-4)
 				Board:AddEffect(ret)
+				
+				
+
 				--LOG("EFFECT ADDED")
 			end
 		end

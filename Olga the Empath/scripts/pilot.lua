@@ -28,7 +28,7 @@ modApi:appendAsset("img/portraits/pilots/Pilot_Swapper_Hedera_blink.png", path .
 -- add ability tooltip - notice how the name is the same as pilot.Skill
 tooltips.Add("KillSwap",
 	PilotSkill("Entangled",
-		"After killing an enemy, teleport to them."))
+		"After killing an enemy, teleport to them and swap tiles."))
 
 -- add personality.
 local personality = personalities:new{ Label = "Knight" }
