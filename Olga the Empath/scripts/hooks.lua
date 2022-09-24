@@ -44,14 +44,12 @@ end
 
 local function teleport(mission, pawn)
 	--LOG("OUT "..tostring(not teleporting))
-	modApi:conditionalHook(function()
-		return (not teleporting == true)
-	end,function()
-		teleporting = true
+	if not teleporting then
 		--LOG("FUNC CALLED")
 		if IsUserPresent() and pawn:GetTeam() == TEAM_ENEMY and Game:GetTeamTurn() == TEAM_PLAYER then
 			local user = GetUser()  
 			if lastPicked:GetId() == user:GetId() then
+				teleporting = true
 				--LOG("POINTS FOUND")
 				--LOG("IN "..tostring(not teleporting))
 				local ret = SkillEffect()
@@ -79,9 +77,6 @@ local function teleport(mission, pawn)
 				ret:AddBounce(from,-4)
 				ret:AddBounce(to,-4)
 				Board:AddEffect(ret)
-				
-				
-
 				--LOG("EFFECT ADDED")
 			end
 		end
@@ -90,7 +85,7 @@ local function teleport(mission, pawn)
 			teleporting = false
 			--LOG("REFRESHED")
 		end)
-	end)
+	end
 end
 
 local keepPicked = function(pawn)
