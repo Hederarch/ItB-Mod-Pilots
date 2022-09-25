@@ -12,7 +12,7 @@ Looking for my mechs? You can find them here: https://github.com/Hederarch/ItB-M
 *(also these do require the Into the Breach modloader. That shouldn't be a problem for most people but download it if you don't have it.)*
 
 ## What's Included
-This pack consists of 4 new pilots, with more on the way soon.
+This pack consists of 5 new pilots, with more on the way soon.
 
 ![Apollo](https://cdn.discordapp.com/attachments/699323570211520556/1021146960268365974/apollo.png)
 **Apollo** - The Plan: (Requires 1 Power) Shields all Mechs after finishing a mission with no Grid damage.
@@ -33,6 +33,11 @@ This pack consists of 4 new pilots, with more on the way soon.
 **Olga Ermanov** - Entangled: After killing an enemy, teleport to its location and swap tiles.
 
 > Olga was a Detritus recruit during the initial sweep for mech pilots, and was one of the greatest trainees to ever come out of the program. She became an experienced mech pilot, rumored to have saved a hundred timelines and exterminated millions of Vek. However during a routine breach out of the hive, the door to her time pod burst open, smearing her across space and intertwining her with the very Vek she fights. She still has some of her old talent, but she fights through a constant fog of warp sickness, severely dulling her legendary skill. 
+
+![Sherrif Volke](https://media.discordapp.net/attachments/1006298746658771034/1023380926773870592/sherrif.png)
+**Sherrif Volke** - Escape Pods: Evacuates adjacent buildings at the start of each turn, but loses 1 move.
+
+>Volke was an R.S.T. county mayor, hobbyist sharpshooter, and lover of the Old Earth wild west. During the initial sweep for mech pilots, he enlisted out of a sense of duty, or perhaps a chance to enact some good old frontier justice. He insisted his mech be equipped with additional time pod launchers to get civilians out of the combat, and used his position of power to strongarm his engineers into making it happen. However, the power needed to launch them to safety gets in the way of his Mech's movement.
 
 ## What to look for
 BALANCE - Are pilot abilites too strong? Too weak? Do they create unwinnable boards or unexpected edge cases?
