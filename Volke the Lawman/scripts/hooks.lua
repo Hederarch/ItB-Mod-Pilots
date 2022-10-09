@@ -55,7 +55,7 @@ local function GetSkillEffect()
 	for dir = DIR_START, DIR_END do
 		local building = user:GetSpace()+DIR_VECTORS[dir]
 		if Board:IsBuilding(building) and not Board:IsUniqueBuilding(building) and Board:IsPowered(building) then
-			Board:AddAlert(building,"EVACUATING")
+			Board:AddAlert(building,"SECURED")
 			Board:AddAnimation(building, "Evac_TimeTravel", NO_DELAY)
 			Board:Ping(building,GL_Color(250, 250, 250, 0.75))
 			Board:SetPopulated(false,building)

@@ -13,12 +13,12 @@ local function getUnoccupiedSpace(offset) --offset added to help randomness
 	while ret == Point(-1,-1) do
 		local x = math.random(0,size.x - 1)
 		local y = math.random(0,size.y - 1)
-		LOG(tostring(x)..","..tostring(y))
+		--LOG(tostring(x)..","..tostring(y))
 		if not Board:IsBlocked(Point(x,y),PATH_GROUND) or Board:IsPawnSpace(Point(x,y)) then
 			ret = Point(x,y)
 		end
 	end
-	LOG("point found!")
+	--LOG("point found!")
 	return ret
 end
 
@@ -125,10 +125,10 @@ end
 local function GetSkillEffect()
 	local ret = SkillEffect()
 	local present = tentaCount()
-	LOG (tostring(3 - present) .. " tentacles missing")
+	--LOG (tostring(3 - present) .. " tentacles missing")
 	if present >= 0 and present < 3 then
 		for i = 0, 2 - present do
-			LOG("spawning " .. tostring(i))
+			--LOG("spawning " .. tostring(i))
 			local pawn = PAWN_FACTORY:CreatePawn("Cult_Tentacle") 
 			Board:AddPawn(pawn) 
 			pawn:SetTeam(TEAM_ENEMY) 

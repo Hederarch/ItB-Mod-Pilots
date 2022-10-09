@@ -34,10 +34,10 @@ local function IsUserPresent()
 		if mech then
 			--LOG("ability: " .. mech:GetAbility()) 
 			if mech:IsAbility("ResetDamage") then
-				LOG("mech has the right skill!")
+				--LOG("mech has the right skill!")
 				return true
 			else
-				LOG("not the right skill :(")
+				--LOG("not the right skill :(")
 			end
 		else
 			--LOG("Mech doesn't exist!!")

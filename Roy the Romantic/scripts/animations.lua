@@ -18,7 +18,7 @@ modApi:appendAsset("img/units/aliens/djinn_tentaa.png", path .."img/pawns/djinn_
 modApi:appendAsset("img/units/aliens/djinn_tentae.png", path .."img/pawns/djinn_tenta_emerge.png")
 modApi:appendAsset("img/units/aliens/djinn_tentad.png", path .."img/pawns/djinn_tenta_rip.png")
 
-ANIMS.djinn_tenta = EnemyUnit:new{ Image = "units/aliens/djinn_tenta.png", PosX = -23, PosY = -8 }
-ANIMS.djinn_tentaa = EnemyUnit:new{ Image = "units/aliens/djinn_tentaa.png", PosX = -23, PosY = -8, NumFrames = 6 }
-ANIMS.djinn_tentae = BaseEmerge:new{ Image = "units/aliens/djinn_tentae.png", PosX = -23, PosY = -8, NumFrames = 8 }
-ANIMS.djinn_tentad = EnemyUnit:new{ Image = "units/aliens/djinn_tentad.png", PosX = -28, PosY = -8, NumFrames = 8, Time = 0.14, Loop = false  }
+ANIMS.djinn_tenta = EnemyUnit:new{ Image = "units/aliens/djinn_tenta.png", PosX = -24, PosY = -10 }
+ANIMS.djinn_tentaa = EnemyUnit:new{ Image = "units/aliens/djinn_tentaa.png", PosX = -24, PosY = -10, NumFrames = 6 }
+ANIMS.djinn_tentae = BaseEmerge:new{ Image = "units/aliens/djinn_tentae.png", PosX = -24, PosY = -10, NumFrames = 8 }
+ANIMS.djinn_tentad = EnemyUnit:new{ Image = "units/aliens/djinn_tentad.png", PosX = -28, PosY = -10, NumFrames = 8, Time = 0.14, Loop = false  }

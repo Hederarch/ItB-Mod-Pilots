@@ -56,6 +56,7 @@ local function teleport(mission, pawn)
 				local to = pawn:GetSpace()
 				local from = GetUser():GetSpace()
 				ret:AddTeleport(from,to, NO_DELAY)
+				ret:AddTeleport(to,from, NO_DELAY)
 				local convertTo = SpaceDamage(to,0)
 				local convertFrom = SpaceDamage(from,0)
 				local fromFire = Board:IsFire(from) and EFFECT_CREATE or EFFECT_REMOVE

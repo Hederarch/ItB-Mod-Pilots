@@ -23,7 +23,7 @@ return {
 	MissionStart = {"Come to me, my dear!","Let us dance!","My love's helping hands are on their way.","Come out and play, dear Vek!",},
 	Mission_ResetTurn = {"Ready to retrace our steps?","What a ride! Again! Again!","These breaches give me such a rush.",},
 	MissionEnd_Dead = {"The Vek have gone completely quiet.","Could they cheer a little queter? They're going to blow out my receiver.","We've saved the people, sure, but think of the bloodshed."},
-	MissionEnd_Retreat = {"They're retreating. They're retreating?!","I'm losing Vek signal. They're on the move!","If only we could follow them..."},
+	MissionEnd_Retreat = {"Hold fire, everyone. They're retreating.","I'm losing Vek signal. They're on the move!","If only we could follow them..."},
 
 	MissionFinal_Start = {"Honey, I'm home!","Her singing is getting louder! We've found it!","Come to me, my molten dear."},
 	MissionFinal_StartResponse = {"Careful deploying those pylons.","Watch out, pylons incoming!","You'd think they'd arrange a softer landing."},
