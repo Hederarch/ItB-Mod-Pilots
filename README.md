@@ -39,6 +39,11 @@ This pack consists of 5 new pilots, with more on the way soon.
 
 >Volke was an R.S.T. county mayor, hobbyist sharpshooter, and lover of the Old Earth wild west. During the initial sweep for mech pilots, he enlisted out of a sense of duty, or perhaps a chance to enact some good old frontier justice. He insisted his mech be equipped with additional time pod launchers to get civilians out of the combat, and used his position of power to strongarm his engineers into making it happen. However, the power needed to launch them to safety gets in the way of his Mech's movement.
 
+![Helix](https://media.discordapp.net/attachments/699323570211520556/1028577757170511964/helix.png)
+**Helix** - Revenant: (Requires 1 Power) Fully heals on death and repairs other Mechs.
+
+> One of Detritus' few ventures into artificial intelligence, Helix is a biological AI assembled from Vek biomass. It's surprisingly intelligent, but proves hard to discipline on the battlefield, and it seems to attack Vek out of a sense of insatiable hunger. The nanite cocktail allowing the Vek matter to interface with machines tends to leak out when damaged, melding nearby debris into the Mechs for temporary repairs.
+
 ## What to look for
 BALANCE - Are pilot abilites too strong? Too weak? Do they create unwinnable boards or unexpected edge cases?
 
