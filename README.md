@@ -43,15 +43,7 @@ This pack consists of 6 new pilots, each with a unique twist to spice up your ru
 
 > One of Detritus' few ventures into artificial intelligence, Helix is a biological AI assembled from Vek biomass. It's surprisingly intelligent, but proves hard to discipline on the battlefield, and it seems to attack Vek out of a sense of insatiable hunger. The nanite cocktail allowing the Vek matter to interface with machines tends to leak out when damaged, melding nearby debris into the Mechs for temporary repairs.
 
-## What to look for
-BALANCE - Are pilot abilites too strong? Too weak? Do they create unwinnable boards or unexpected edge cases?
-
-DIALOGUE - Are personalities charming? Are there typos? Are phrasings awkward or unclear?
-
-SPRITES - Do they fit the game's art style? Do they display correctly?
-
-
-I'll be updating these frequently, and I appreciate all feedback.
+Thanks for playing!
 - Hedera
 
 *Special thanks to NamesAreHard and TrueIch for coding help, and Djinn for spriting help!*
