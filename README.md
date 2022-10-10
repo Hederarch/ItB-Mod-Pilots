@@ -1,4 +1,5 @@
-# Hedera's Pilot Testfire
+![Hex Pilots](https://cdn.discordapp.com/attachments/699323570211520556/1028822909080305805/Hex_Pilots_Logo_Big.png)
+
 Thanks for testing my mods!
 
 Not a valid modpack yet, the folders need to be individually inserted into the game's mods folder.
