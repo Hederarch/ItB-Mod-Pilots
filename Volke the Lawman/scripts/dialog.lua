@@ -12,8 +12,8 @@ return {
 	Death_Response = {"Which Vek did that? I'm takin' its head.","Rest well, pardner.","Aw, hell. Not another."},
 	Death_Response_AI = {"Aw, hell. The computer's busted.","Useless tech.","At least it wasn't occupied."},
 	TimeTravel_Win = {"You've done me proud, #squad. I'll see you on the other side."},
-	Gameover_Start = {"o_O","O_o","O_O","o_o"},
-	Gameover_Response = {"T_T",">_<","¨_¨","-_-"},
+	Gameover_Start = {"Aw, hell. There goes the power.","The lights are going dark. No more grid.","The grid's smoked. We're done for."},
+	Gameover_Response = {"We'll get them next time.","We saved who we could. Let's go.","There's no more helpin' here. Let's go."},
 	
 	-- UI Barks
 	Upgrade_PowerWeapon = {"That's one hell of a six shooter.","Locked and loaded, pardner.","",},
@@ -84,44 +84,44 @@ return {
 
 
 	-- Shared Missions
-	--[[Mission_Train_TrainStopped = {},
-	Mission_Train_TrainDestroyed = {},
-	Mission_Block_Reminder = {},
+	Mission_Train_TrainStopped = {"The engineers will handle it."},
+	Mission_Train_TrainDestroyed = {"The train's smoked."},
+	Mission_Block_Reminder = {"We've got to keep these varmints underground!"},
 
 	-- Archive
-	Mission_Airstrike_Incoming = {},
-	Mission_Tanks_Activated = {},
-	Mission_Tanks_PartialActivated = {},
-	Mission_Dam_Reminder = {},
-	Mission_Dam_Destroyed = {},
-	Mission_Satellite_Destroyed = {},
-	Mission_Satellite_Imminent = {},
-	Mission_Satellite_Launch = {},
-	Mission_Mines_Vek = {},
+	Mission_Airstrike_Incoming = {"Here comes the calvary."},
+	Mission_Tanks_Activated = {"The little pistols are up and running."},
+	Mission_Tanks_PartialActivated = {"The little pistol's up and running."},
+	Mission_Dam_Reminder = {"We've got terraformin' to do. Take out the dam!"},
+	Mission_Dam_Destroyed = {"Now that's a mighty fine river."},
+	Mission_Satellite_Destroyed = {"At least it weren't occupied."},
+	Mission_Satellite_Imminent = {"Stand back, it's gonna blow."},
+	Mission_Satellite_Launch = {"Another job well done."},
+	Mission_Mines_Vek = {"That'll teach it to mess with us."},
 
 	-- RST
-	Mission_Terraform_Destroyed = {},
-	Mission_Terraform_Attacks = {},
-	Mission_Cataclysm_Falling = {},
-	Mission_Lightning_Strike_Vek = {},
-	Mission_Solar_Destroyed = {},
-	Mission_Force_Reminder = {},
+	Mission_Terraform_Destroyed = {"Aw, hell. Now it's busted."},
+	Mission_Terraform_Attacks = {"I remember doing that."},
+	Mission_Cataclysm_Falling = {"It wouldn't be R.S.T. if it weren't trying to kill us."},
+	Mission_Lightning_Strike_Vek = {"Vek's been fried."},
+	Mission_Solar_Destroyed = {"Can't save 'em all."},
+	Mission_Force_Reminder = {"We've got terraformin' to do. Take down those mountains."},
 
 	-- Pinnacle
-	Mission_Freeze_Mines_Vek = {},
-	Mission_Factory_Destroyed = {},
-	Mission_Factory_Spawning = {},
-	Mission_Reactivation_Thawed = {},
-	Mission_SnowStorm_FrozenVek = {},
-	Mission_SnowStorm_FrozenMech = {},
-	BotKilled_Self = {},
-	BotKilled_Obs = {},
+	Mission_Freeze_Mines_Vek = {"It's not botherin' us anymore."},
+	Mission_Factory_Destroyed = {"That's bad, but I'm not gonna miss it."},
+	Mission_Factory_Spawning = {"It's makin' more critters."},
+	Mission_Reactivation_Thawed = {"They're thawing fast! Battle stations!"},
+	Mission_SnowStorm_FrozenVek = {"Pinnacle's got some fancy storms of their own."},
+	Mission_SnowStorm_FrozenMech = {"I can deal with bad weather."},
+	BotKilled_Self = {"Ooh, that's not gettin' back up."},
+	BotKilled_Obs = {"We're not supposed to be hittin' those."},
 
 	-- Detritus
-	Mission_Disposal_Destroyed = {},
-	Mission_Disposal_Activated = {},
-	Mission_Barrels_Destroyed = {},
-	Mission_Power_Destroyed = {},
-	Mission_Teleporter_Mech = {},
-	Mission_Belt_Mech = {},]]
+	Mission_Disposal_Destroyed = {"Aw hell, now it's busted."},
+	Mission_Disposal_Activated = {"What I wouldn't give to pull the trigger on that."},
+	Mission_Barrels_Destroyed = {"How's that taste, Vek?"},
+	Mission_Power_Destroyed = {"Can't save 'em all."},
+	Mission_Teleporter_Mech = {"I'll never get used to that."},
+	Mission_Belt_Mech = {"I'll never get used to that."},
 }

@@ -61,7 +61,7 @@ return {
 
 	-- Damage Done
 	Vek_Drown = {"Vek's been swallowed.","Devoured by the sea.","I can't stand soggy food."},
-	Vek_Fall = {"Vek's been swallowed.","Devoured by the earth.","A waste of good carrion."},
+	Vek_Fall = {"Vek's been swallowed.","Devoured by the earth.","The islands hunger as I hunger."},
 	Vek_Smoke = {"Its pheremones are scrambled.","Can't smell us coming anymore.","Quick! Strike while it's confused!","Vek's got a new smoky flavor."},
 	Vek_Frozen = {"It's leftovers now.","Vek's in the fridge now.","That should keep it fresh."},
 	VekKilled_Self = {"Delicious.","Vek chewed.","Vek digested."},
@@ -84,44 +84,44 @@ return {
 
 
 	-- Shared Missions
-	--[[Mission_Train_TrainStopped = {},
-	Mission_Train_TrainDestroyed = {},
-	Mission_Block_Reminder = {},
+	Mission_Train_TrainStopped = {"The train is limping along."},
+	Mission_Train_TrainDestroyed = {"The train is too badly wounded."},
+	Mission_Block_Reminder = {"We cannot let too many Vek on our plate. Keep them under!"},
 
 	-- Archive
-	Mission_Airstrike_Incoming = {},
-	Mission_Tanks_Activated = {},
-	Mission_Tanks_PartialActivated = {},
-	Mission_Dam_Reminder = {},
-	Mission_Dam_Destroyed = {},
-	Mission_Satellite_Destroyed = {},
-	Mission_Satellite_Imminent = {},
-	Mission_Satellite_Launch = {},
-	Mission_Mines_Vek = {},
+	Mission_Airstrike_Incoming = {"Pilots incoming to steal my kills."},
+	Mission_Tanks_Activated = {"New morsels?"},
+	Mission_Tanks_PartialActivated = {"A new morsel?"},
+	Mission_Dam_Reminder = {"We cannot let the dam live."},
+	Mission_Dam_Destroyed = {"The river will swallow the Vek below."},
+	Mission_Satellite_Destroyed = {"The rocket is too badly wounded to escape."},
+	Mission_Satellite_Imminent = {"The rocket is preparing its escape."},
+	Mission_Satellite_Launch = {"The rocket has broken free!"},
+	Mission_Mines_Vek = {"Stop that! Come and fight me!"},
 
 	-- RST
-	Mission_Terraform_Destroyed = {},
-	Mission_Terraform_Attacks = {},
-	Mission_Cataclysm_Falling = {},
-	Mission_Lightning_Strike_Vek = {},
-	Mission_Solar_Destroyed = {},
-	Mission_Force_Reminder = {},
+	Mission_Terraform_Destroyed = {"More for me."},
+	Mission_Terraform_Attacks = {"The islands hunger as I hunger."},
+	Mission_Cataclysm_Falling = {"The islands hunger as I hunger."},
+	Mission_Lightning_Strike_Vek = {"Fresh fried Vek."},
+	Mission_Solar_Destroyed = {"Strike while they're busy chewing glass."},
+	Mission_Force_Reminder = {"We must finish these mountains as part of our meal."},
 
 	-- Pinnacle
-	Mission_Freeze_Mines_Vek = {},
-	Mission_Factory_Destroyed = {},
-	Mission_Factory_Spawning = {},
-	Mission_Reactivation_Thawed = {},
-	Mission_SnowStorm_FrozenVek = {},
-	Mission_SnowStorm_FrozenMech = {},
-	BotKilled_Self = {},
-	BotKilled_Obs = {},
+	Mission_Freeze_Mines_Vek = {"It's in the fridge now."},
+	Mission_Factory_Destroyed = {"No more morsels?"},
+	Mission_Factory_Spawning = {"Another morsel for me."},
+	Mission_Reactivation_Thawed = {"More leftovers."},
+	Mission_SnowStorm_FrozenVek = {"It's leftovers now."},
+	Mission_SnowStorm_FrozenMech = {"You cannot trap me! I will break free!"},
+	BotKilled_Self = {"Nutritious, but bland."},
+	BotKilled_Obs = {"Don't try that on me."},
 
 	-- Detritus
-	Mission_Disposal_Destroyed = {},
-	Mission_Disposal_Activated = {},
-	Mission_Barrels_Destroyed = {},
-	Mission_Power_Destroyed = {},
-	Mission_Teleporter_Mech = {},
-	Mission_Belt_Mech = {},]]
+	Mission_Disposal_Destroyed = {"More for me."},
+	Mission_Disposal_Activated = {"The island is sick."},
+	Mission_Barrels_Destroyed = {"Drink that, Vek."},
+	Mission_Power_Destroyed = {"The grid has been wounded."},
+	Mission_Teleporter_Mech = {"Loathsome tricks."},
+	Mission_Belt_Mech = {"Don't drag me around."},
 }

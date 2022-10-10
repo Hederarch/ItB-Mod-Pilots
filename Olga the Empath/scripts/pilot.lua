@@ -13,7 +13,7 @@ local pilot = {
 	Personality = "Knight",	-- must match the id for a personality you have added to the game.
 	Name = "Olga Ermanov",
 	Rarity = 1,
-	Voice = "/voice/ai",					-- audio. look in pilots.lua for more alternatives.
+	Voice = "/voice/camila",					-- audio. look in pilots.lua for more alternatives.
 	Skill = "KillSwap",
 }
 

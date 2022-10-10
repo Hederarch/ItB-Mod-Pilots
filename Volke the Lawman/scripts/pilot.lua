@@ -13,7 +13,7 @@ local pilot = {
 	Personality = "Sherrif",	-- must match the id for a personality you have added to the game.
 	Name = "Sherrif Volke",
 	Rarity = 1,
-	Voice = "/voice/ai",					-- audio. look in pilots.lua for more alternatives.
+	Voice = "/voice/harold",					-- audio. look in pilots.lua for more alternatives.
 	Skill = "EvacuateSkill",
 }
 

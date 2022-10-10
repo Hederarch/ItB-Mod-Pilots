@@ -51,7 +51,7 @@ return {
 	Emerge_FailedVek = {"They're blocking their own reinforcements.","Cute. It's trying to save its friend from me."},
 
 	-- Mech State
-	Mech_LowHealth = {"At this rate, I'll be smeared all over the cockpit.","You can't treat a hero like this!","o_o\\"},
+	Mech_LowHealth = {"At this rate, I'll be smeared all over the cockpit.","You can't treat a hero like this!"},
 	Mech_Webbed = {"My armor is stuck in place.","I'll come out there and punch you myself if I have to.","It's grabbed my armor, I'm stuck!"},
 	Mech_Shielded = {"Save it for someone weaker.","This is just a distraction."},
 	Mech_Repaired = {"Back in fighting form!","My armor grows ever stronger."},
@@ -84,44 +84,44 @@ return {
 
 
 	-- Shared Missions
-	--[[Mission_Train_TrainStopped = {},
-	Mission_Train_TrainDestroyed = {},
-	Mission_Block_Reminder = {},
+	Mission_Train_TrainStopped = {"The train's smashed, but they can fix it."},
+	Mission_Train_TrainDestroyed = {"Forget about the train, let's get revenge!"},
+	Mission_Block_Reminder = {"Stomp these Vek back underground before we get yelled at."},
 
 	-- Archive
-	Mission_Airstrike_Incoming = {},
-	Mission_Tanks_Activated = {},
-	Mission_Tanks_PartialActivated = {},
-	Mission_Dam_Reminder = {},
-	Mission_Dam_Destroyed = {},
-	Mission_Satellite_Destroyed = {},
-	Mission_Satellite_Imminent = {},
-	Mission_Satellite_Launch = {},
-	Mission_Mines_Vek = {},
+	Mission_Airstrike_Incoming = {"They've called in some air support. Not that I need it."},
+	Mission_Tanks_Activated = {"Aww yeah, more firepower."},
+	Mission_Tanks_PartialActivated = {"Aww yeah, more firepower."},
+	Mission_Dam_Reminder = {"Someone slay the dam!"},
+	Mission_Dam_Destroyed = {"Behold! The wrath of nature!"},
+	Mission_Satellite_Destroyed = {"There's no fixing that."},
+	Mission_Satellite_Imminent = {"Get ready everyone, it's launching!"},
+	Mission_Satellite_Launch = {"Pierce the heavens!"},
+	Mission_Mines_Vek = {"Behold! The wrath of Old Earth!"},
 
 	-- RST
-	Mission_Terraform_Destroyed = {},
-	Mission_Terraform_Attacks = {},
-	Mission_Cataclysm_Falling = {},
-	Mission_Lightning_Strike_Vek = {},
-	Mission_Solar_Destroyed = {},
-	Mission_Force_Reminder = {},
+	Mission_Terraform_Destroyed = {"How did they manage to overpower it?"},
+	Mission_Terraform_Attacks = {"Such a fearsome foe. Don't get on its bad side."},
+	Mission_Cataclysm_Falling = {"Let's push a few Vek back into the depths."},
+	Mission_Lightning_Strike_Vek = {"Behold! The wrath of nature!"},
+	Mission_Solar_Destroyed = {"The panels never stood a chance."},
+	Mission_Force_Reminder = {"We must intimidate the Vek by taking down these mountains!"},
 
 	-- Pinnacle
-	Mission_Freeze_Mines_Vek = {},
-	Mission_Factory_Destroyed = {},
-	Mission_Factory_Spawning = {},
-	Mission_Reactivation_Thawed = {},
-	Mission_SnowStorm_FrozenVek = {},
-	Mission_SnowStorm_FrozenMech = {},
-	BotKilled_Self = {},
-	BotKilled_Obs = {},
+	Mission_Freeze_Mines_Vek = {"It's retreated into the ice. What a coward."},
+	Mission_Factory_Destroyed = {"The monster is slain! Zenith won't be happy."},
+	Mission_Factory_Spawning = {"Stomp it before it wakes up!"},
+	Mission_Reactivation_Thawed = {"Now come here so I can destroy you."},
+	Mission_SnowStorm_FrozenVek = {"It's retreated into the ice. What a coward."},
+	Mission_SnowStorm_FrozenMech = {"Break me out and let me at em!"},
+	BotKilled_Self = {"It never stood a chance."},
+	BotKilled_Obs = {"It never stood a chance."},
 
 	-- Detritus
-	Mission_Disposal_Destroyed = {},
-	Mission_Disposal_Activated = {},
-	Mission_Barrels_Destroyed = {},
-	Mission_Power_Destroyed = {},
-	Mission_Teleporter_Mech = {},
-	Mission_Belt_Mech = {},]]
+	Mission_Disposal_Destroyed = {"How did they manage to overpower it?"},
+	Mission_Disposal_Activated = {"Now THAT'S a real weapon."},
+	Mission_Barrels_Destroyed = {"It's done, but there's no honor in it."},
+	Mission_Power_Destroyed = {"Find whatever smashed that and cave its head in."},
+	Mission_Teleporter_Mech = {"I'm already used to it."},
+	Mission_Belt_Mech = {"Finally traveling in style."}
 }
