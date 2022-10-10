@@ -1,8 +1,6 @@
 ![Hex Pilots](https://cdn.discordapp.com/attachments/699323570211520556/1028822909080305805/Hex_Pilots_Logo_Big.png)
 
-Thanks for testing my mods!
-
-Not a valid modpack yet, the folders need to be individually inserted into the game's mods folder.
+The folder is now a valid modpack! Just extract the zip and put it right in the game's mods folder.
 
 Feedback is preferred on the relevant channels of the official discord (or the specialized thread if that's still available): https://discord.gg/xRxPAb87JW
 
