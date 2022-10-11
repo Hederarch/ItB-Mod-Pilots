@@ -10,7 +10,7 @@ local dialog = require(path .."scripts/dialog")
 
 local pilot = {
 	Id = "Pilot_Swapper_Hedera",					-- id must be unique. Used to link to art assets.
-	Personality = "Knight",	-- must match the id for a personality you have added to the game.
+	Personality = "HexKnight",	-- must match the id for a personality you have added to the game.
 	Name = "Olga Ermanov",
 	Rarity = 1,
 	Voice = "/voice/camila",					-- audio. look in pilots.lua for more alternatives.
@@ -31,10 +31,10 @@ tooltips.Add("KillSwap",
 		"After killing an enemy, teleport to them and swap tiles."))
 
 -- add personality.
-local personality = personalities:new{ Label = "Knight" }
+local personality = personalities:new{ Label = "HexKnight" }
 
 -- add dialog to personality.
 personality:AddDialog(dialog)
 
 -- add personality to game - notice how the id is the same as pilot.Personality
-Personality["Knight"] = personality
+Personality["HexKnight"] = personality

@@ -10,7 +10,7 @@ local dialog = require(path .."scripts/dialog")
 
 local pilot = {
 	Id = "Pilot_Prophecy_Hedera",					-- id must be unique. Used to link to art assets.
-	Personality = "Chessmaster",	-- must match the id for a personality you have added to the game.
+	Personality = "HexChessmaster",	-- must match the id for a personality you have added to the game.
 	Name = "Apollo",
 	Rarity = 1,
 	Voice = "/voice/ai",					-- audio. look in pilots.lua for more alternatives.
@@ -32,10 +32,10 @@ tooltips.Add("ChessmasterSkill",
 		"Shields all Mechs if you finished your last mission without Grid Damage."))
 
 -- add personality.
-local personality = personalities:new{ Label = "Chessmaster" }
+local personality = personalities:new{ Label = "HexChessmaster" }
 
 -- add dialog to personality.
 personality:AddDialog(dialog)
 
 -- add personality to game - notice how the id is the same as pilot.Personality
-Personality["Chessmaster"] = personality
+Personality["HexChessmaster"] = personality

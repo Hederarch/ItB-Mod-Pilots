@@ -10,7 +10,7 @@ local dialog = require(path .."scripts/dialog")
 
 local pilot = {
 	Id = "Pilot_Rescue_Hedera",					-- id must be unique. Used to link to art assets.
-	Personality = "Sherrif",	-- must match the id for a personality you have added to the game.
+	Personality = "HexSherrif",	-- must match the id for a personality you have added to the game.
 	Name = "Sherrif Volke",
 	Rarity = 1,
 	Voice = "/voice/harold",					-- audio. look in pilots.lua for more alternatives.
@@ -31,10 +31,10 @@ tooltips.Add("EvacuateSkill",
 		"Evacuates adjacent buildings on the start of each turn, but loses one move."))
 
 -- add personality.
-local personality = personalities:new{ Label = "Sherrif" }
+local personality = personalities:new{ Label = "HexSherrif" }
 
 -- add dialog to personality.
 personality:AddDialog(dialog)
 
 -- add personality to game - notice how the id is the same as pilot.Personality
-Personality["Sherrif"] = personality
+Personality["HexSherrif"] = personality

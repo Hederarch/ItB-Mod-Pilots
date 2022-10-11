@@ -10,7 +10,7 @@ local dialog = require(path .."scripts/dialog")
 
 local pilot = {
 	Id = "Pilot_Challenge_Hedera",					-- id must be unique. Used to link to art assets.
-	Personality = "Cultist",	-- must match the id for a personality you have added to the game.
+	Personality = "HexCultist",	-- must match the id for a personality you have added to the game.
 	Name = "Roy Rubold",
 	Rarity = 1,
 	Voice = "/voice/abe",					-- audio. look in pilots.lua for more alternatives.
@@ -31,10 +31,10 @@ tooltips.Add("TentacleSkill",
 		"Summons 3 tentacles every mission that attack Vek and Mechs alike."))
 
 -- add personality.
-local personality = personalities:new{ Label = "Cultist" }
+local personality = personalities:new{ Label = "HexCultist" }
 
 -- add dialog to personality.
 personality:AddDialog(dialog)
 
 -- add personality to game - notice how the id is the same as pilot.Personality
-Personality["Cultist"] = personality
+Personality["HexCultist"] = personality
