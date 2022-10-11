@@ -10,7 +10,7 @@ local dialog = require(path .."scripts/dialog")
 
 local pilot = {
 	Id = "Pilot_Destroyer_Hedera",					-- id must be unique. Used to link to art assets.
-	Personality = "Sadist",	-- must match the id for a personality you have added to the game.
+	Personality = "Scientist",	-- must match the id for a personality you have added to the game.
 	Name = "Fourier",
 	Rarity = 1,
 	Voice = "/voice/ai",					-- audio. look in pilots.lua for more alternatives.
@@ -32,10 +32,10 @@ tooltips.Add("ResetDamage",
 		"Damages all enemies and mountains on Reset Turn."))
 
 -- add personality.
-local personality = personalities:new{ Label = "Sadist" }
+local personality = personalities:new{ Label = "Scientist" }
 
 -- add dialog to personality.
 personality:AddDialog(dialog)
 
 -- add personality to game - notice how the id is the same as pilot.Personality
-Personality["Sadist"] = personality
+Personality["Scientist"] = personality
