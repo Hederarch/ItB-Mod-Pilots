@@ -13,7 +13,7 @@ local function IsUserPresent()
 		if mech then
 			--LOG("ability: " .. mech:GetAbility()) 
 			if mech:IsAbility("Revive") then
-				LOG("mech has the right skill!")
+				--LOG("mech has the right skill!")
 				return true
 			else
 				--LOG("not the right skill :(")
@@ -69,11 +69,11 @@ local function InitialVfx()
 end
 
 local function revive(mission, pawn)
-	LOG("CHECK")
+	--LOG("CHECK")
 	if IsUserPresent() then
 		local userID = GetUser():GetId()
 		if pawn:GetId() == userID then
-			LOG("ACTIVATING")
+			--LOG("ACTIVATING")
 			Board:AddEffect(InitialVfx())
 			modApi:conditionalHook(
 				function()
@@ -88,7 +88,7 @@ end
 
 function this:load(Hedera_Suicide_ModApiExt)
   Hedera_Suicide_ModApiExt:addPawnKilledHook(revive)
-  LOG("hooks added!----------------------------------------[!]")
+  --LOG("hooks added!----------------------------------------[!]")
 end
 
 return this

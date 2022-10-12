@@ -12,8 +12,8 @@ local this = {}
 local function getUnoccupiedSpace(offset) --offset added to help randomness
 	local ret = Point(-1,-1)
 	local size = Board:GetSize()
-	math.randomseed(os.time() - offset)
 	while ret == Point(-1,-1) do
+		math.randomseed(os.time() - offset)
 		local x = math.random(0,size.x - 1)
 		local y = math.random(0,size.y - 1)
 		LOG(tostring(x)..","..tostring(y))
