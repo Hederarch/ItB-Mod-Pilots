@@ -8,6 +8,8 @@ Check the Issues tab for known bugs that are being worked on.
 
 Looking for my mechs? You can find them here: https://github.com/Hederarch/ItB-Mod-Squads
 
+This mod has a sequel! Check it out here: https://github.com/Hederarch/ItB-Mod-Pilots-2
+
 *(also these do require the Into the Breach modloader. That shouldn't be a problem for most people but download it if you don't have it.)*
 
 ## What's Included
